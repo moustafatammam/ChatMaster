@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "608927251853",
+    "firebase_url": "https://chat-master-7387f.firebaseio.com",
+    "project_id": "chat-master-7387f",
+    "storage_bucket": "chat-master-7387f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608927251853:android:92815dd8ab64380ccf91c4",
+        "android_client_info": {
+          "package_name": "com.example.android.chatmaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608927251853-0j5hqettmfnr0lecisqq0pdjjm8h78oi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW51C4_Up0PupcbTBkSrSTpWqwGDXbRpY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "608927251853-0j5hqettmfnr0lecisqq0pdjjm8h78oi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
