@@ -22,7 +22,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.example.android.chatMaster.R;
-import com.example.android.chatMaster.UI.viewmodel.SharedViewModel;
+import com.example.android.chatMaster.viewmodel.SharedViewModel;
 import com.example.android.chatMaster.databinding.FragmentLoginBinding;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -110,7 +110,7 @@ public class LoginFragment extends Fragment {
                 if(!task.isSuccessful()){
                     showErrorDialog("Login failed");
                 }else {
-                    Navigation.findNavController(getActivity(), R.id.login_sign_in_button).navigate(R.id.usersFragment);
+                    Navigation.findNavController(getActivity(), R.id.login_sign_in_button).navigate(R.id.chatFragment);
                 }
             }
         });

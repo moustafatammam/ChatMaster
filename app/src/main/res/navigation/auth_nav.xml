@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/auth_nav"
-    app:startDestination="@id/usersFragment">
+    app:startDestination="@id/chatFragment">
 
     <fragment
         android:id="@+id/registerFragment"
@@ -23,14 +23,7 @@
         android:id="@+id/usersFragment"
         android:name="com.example.android.chatMaster.UI.Fragments.UsersFragment"
         android:label="fragment_users"
-        tools:layout="@layout/fragment_users" >
-        <action
-            android:id="@+id/action_usersFragment_to_loginFragment"
-            app:destination="@id/loginFragment" />
-        <action
-            android:id="@+id/action_usersFragment_to_chatFragment"
-            app:destination="@id/chatFragment" />
-    </fragment>
+        tools:layout="@layout/fragment_users" />
     <fragment
         android:id="@+id/chatFragment"
         android:name="com.example.android.chatMaster.UI.Fragments.ChatFragment"

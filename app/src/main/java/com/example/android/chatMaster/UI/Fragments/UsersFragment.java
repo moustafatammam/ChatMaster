@@ -17,7 +17,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.android.chatMaster.R;
-import com.example.android.chatMaster.UI.viewmodel.SharedViewModel;
+import com.example.android.chatMaster.viewmodel.SharedViewModel;
 import com.google.firebase.auth.FirebaseAuth;
 
 

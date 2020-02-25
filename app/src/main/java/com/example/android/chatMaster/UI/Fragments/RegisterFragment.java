@@ -23,7 +23,7 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.Navigation;
 
 import com.example.android.chatMaster.R;
-import com.example.android.chatMaster.UI.viewmodel.SharedViewModel;
+import com.example.android.chatMaster.viewmodel.SharedViewModel;
 import com.example.android.chatMaster.databinding.FragmentRegisterBinding;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -133,11 +133,11 @@ public class RegisterFragment extends Fragment {
         }
 
         if(TextUtils.isEmpty(userName)){
-            mRegisterUserName.setError("User's name is required");
+            mRegisterUserName.setError("Message's name is required");
             focusView = mRegisterUserName;
             cancel = true;
         }else if (!isUserValid(userName)){
-            mRegisterUserName.setError("User's name is invalid");
+            mRegisterUserName.setError("Message's name is invalid");
             focusView = mRegisterUserName;
             cancel = true;
         }

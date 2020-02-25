@@ -10,7 +10,7 @@ import androidx.navigation.ui.NavigationUI;
 import android.os.Bundle;
 
 import com.example.android.chatMaster.R;
-import com.example.android.chatMaster.UI.viewmodel.SharedViewModel;
+import com.example.android.chatMaster.viewmodel.SharedViewModel;
 import com.example.android.chatMaster.databinding.ActivityMainBinding;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
